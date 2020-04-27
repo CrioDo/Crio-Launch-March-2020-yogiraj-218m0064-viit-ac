@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Crio-Launch-March-2020-yogiraj-218m0064-viit-ac/precache-manifest.cc23422990ffa9254ebcf3c143cc949b.js"
+  "/Crio-Launch-March-2020-yogiraj-218m0064-viit-ac/precache-manifest.cd4e48cc3eb801daf0e7ccae5813d410.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Crio-Launch-March-2020-yogiraj-218m0064-viit-ac/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
